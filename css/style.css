@@ -1,0 +1,957 @@
+
+header{
+width: 100%;
+    background-color: rgb(254, 209, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerContent{
+    width: 85%;     
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:"Montserrat", Arial, sans-serif;
+}
+.MOVEE{
+    margin-right: 4rem;
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.menu{
+    margin: 0;
+    padding: 0.25rem;
+}
+.menu li{
+    display: inline;
+    margin-right: 0.32rem;
+}
+.menuItem{
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.numberPhone{
+    margin-right: 4rem;
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.textHead{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;   
+    font-size:xx-large;
+    font-family:"Montserrat", Arial, sans-serif;
+    font-weight: 1000;
+    color:#303030;
+}
+.titleHead{
+    font-weight: 900;
+    font-size: 4.25rem;
+    line-height: 1.1;
+    margin:  auto;
+}
+.descHead{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.manImg{
+    width: 50%;
+    height: 50%;
+    transform: scale(-1, 1);   
+}
+.but{
+    width: 19rem;
+    height: 4rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 0; 
+}
+.but{
+    transition: 500ms;
+    background-color: #ff0000;
+    box-shadow: 14px 14px 0px rgb(254, 209, 0), 
+    16px 16px 0px #ffffff, 
+    16px 12px 0px #ffffff, 
+    12px 16px 0px #ffffff; 
+}
+.but:hover{
+    background-color: #ff0000c5;
+    box-shadow: 14px 14px 0px rgba(255, 255, 255, 0.842), 
+    16px 16px 0px #ffffff, 
+    16px 12px 0px #ffffff, 
+    12px 16px 0px #ffffff; 
+}
+.phone{
+    border-radius: 100%;
+     width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone{
+    transition: 500ms;
+    background-color: rgb(61, 155, 233);
+    box-shadow: 0 0 0 1.25rem rgba(61, 156, 233, 0.473);
+}
+.phone:hover{
+    background-color: rgb(61, 155, 233);
+    box-shadow: 0 0 0 1.25rem rgba(61, 156, 233);    
+}
+.phoneImg{
+    width: 4rem;
+    height: 4rem;
+}
+.itemPng{
+    width: 3rem;
+    height: 3rem;
+}
+.downHeadBox{
+    display: flex;
+    justify-content: space-between;   
+}
+.downHead{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;     
+}
+.downHead p{
+    display: inline-block;
+    width: 8.3rem;
+    padding: 0 0 0 0.31rem;
+}
+.downHead li{
+    align-items: center;
+}
+
+
+
+
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.number{
+    width: 31.5rem;
+    font-size: 3rem;
+    text-shadow: 0.2rem 0.2rem #f7e817
+}
+.numberBox{
+    width: 35%;
+}
+.jobsName{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin: 0 0 0 2.4rem;
+}
+.jobsDescription{
+    font-size: 1rem;
+    margin: 0 0 0 6.25rem;
+}
+
+
+
+
+.pricesBox{
+    display: flex;
+    justify-content: space-around;   
+}
+.priceBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 25rem;
+    padding: 0 0 2.25rem 0;
+}
+.priceBox{
+    transition: 500ms;
+    border: 0.2rem solid rgb(221, 221, 220);
+}
+.priceBox:hover{
+    border: 0.2rem solid #f7e817;
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.11);
+}
+.priceBox h3{
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.priceList{
+    list-style-type: none;
+}
+.priceList li{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0 3rem 2rem 0;
+    text-align: center;
+}
+.price{
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.butCost{
+    transition: 500ms;
+    width: 19rem;
+    height: 4rem;
+    background-color: #f7e817;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 0;
+    margin: 5% 0  0 0;
+}
+.butCost:hover{
+color:#ffffff;
+}
+.allPrice{
+    display: none;
+}
+
+
+
+.butCars{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 0 auto;
+    width: 50%;
+}
+.butCar{
+    width: 12rem;
+    height: 3rem;
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.butCar{
+    transition: 500ms;
+    border: 0.2rem solid rgb(221, 221, 220);
+}
+.butCar:hover{
+    border: 0.2rem solid #f7e817;
+}
+.carsInfoBox{
+    display: flex;
+    justify-content: center;
+}
+.carsInfo{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10% 0 0;
+}
+.carsInfo h3{
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 30% 0 0 0;
+}
+.carsInfo ul{
+    list-style: none;
+}
+.carsInfo ul li{
+    padding: 2.2rem 0 0 0;
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.carsInfo ul li::before{
+   content: "\2714  ";  
+}
+.carImg{
+    width: 40%;
+    height: 25%;
+}
+.carMob{
+    display: none;
+}
+#mobCarBut{
+    display: none;
+}
+
+
+
+
+
+
+.revsBox{
+    background-color: rgb(254, 209, 0);
+    min-height: 42rem;
+}
+.revBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 3% 5% 0;
+}
+.rev{
+    width: 25%;
+}
+.nameRev{
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.revDes{
+    padding: 1.2rem 0 1.2rem 0;
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.butRev{
+    display: block;
+    width: 12rem;
+    height: 3rem;
+  margin: 0 auto 0 auto;
+}
+.butRev{
+    transition: 500ms;
+    background-color: rgb(254, 209, 0);
+}
+.butRev:hover{
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 0;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 0 10rem 0;
+}
+.funcBox p{
+    margin: 1rem 0 3rem 0;
+}
+.inputBox{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 4rem 0;
+}
+.inputItem{
+    border: 0.125rem solid #ff352b;
+    margin: 0 4rem 0 4rem;
+    padding: 0.9rem 16rem 1rem 0;
+    width: 45%;
+   text-align: left;
+}
+.selectsBox{
+    display: inline-flex;
+    flex-direction: row;   
+    margin: 1rem 0 3rem 0;
+}
+.selectBox{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 10.5rem 0 2rem;
+}
+.selectItem{
+    margin: 0 4rem 0 0rem;
+    padding: 0.9rem 10rem 1rem 0;
+    width: 100%;
+   text-align: left;
+    border: 0;
+    border-bottom: 0.06rem solid rgb(27, 27, 27);
+  
+}
+.payBox{
+    display: flex;
+    flex-direction: row;
+    max-width: 45%;
+}
+.radioButItemBox{
+    margin: 0 0 0 2rem;
+}
+  .radioButItem{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .cradioButItem+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .radioButItem+label::before {
+    transition: 500ms;
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 0.12rem solid #adb5bd;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  .radioButItem+label:hover:before {
+    border: 0.12rem solid #f5d72d;
+  }
+  .radioButItem:checked+label::before {
+    border-color: #f5d72d;
+    background-color: #f5d72d;
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+  }
+.funcBox h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 4rem 0 4rem 0;
+}
+.additionallyBox{
+    display: flex;
+    flex-direction: row;
+    max-width: 45%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 5rem;
+}
+.checkButItemBox{
+    margin: 0 3rem 0 2rem;
+}
+.checkButItem{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.checkButItem+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .checkButItem+label::before {
+    transition: 500ms;
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 0.12rem solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  .checkButItem+label:hover:before {
+    border: 0.12rem solid #f5d72d;
+  }
+  .checkButItem:checked+label::before {
+    border-color: #f5d72d;
+    background-color: #f5d72d;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+  }
+.acceptBox{
+    margin: 7rem 0  0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.acceptButBox{
+    margin: 0 0   0 10rem;
+}
+.acceptBut{
+    width: 19rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 0;
+    margin: 0 0  3rem 0;
+}
+.acceptBut{
+    transition: 500ms;
+    background-color: #ff0000;
+    box-shadow: 14px 14px 0px rgb(255, 255, 255), 
+    16px 16px 0px #000000, 
+    16px 12px 0px #000000, 
+    12px 16px 0px #000000; 
+}
+.acceptBut::after{
+    content: 'Заказать со скидкой';
+}
+.acceptBut:hover{
+    background-color: #ff0000c5;
+    box-shadow: 14px 14px 0px  rgba(163, 163, 163, 0.411),
+    16px 16px 0px #ffffff, 
+    16px 12px 0px #ffffff, 
+    12px 16px 0px #ffffff; 
+}
+
+.timer{
+    margin-right: 4rem;
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 4.6rem;
+    font-weight: 600;
+}
+
+
+
+footer{
+    background-color: rgb(254, 209, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.down{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3% 0 0 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.downMOVEE{
+    display: flex;
+    flex-direction: column;
+}
+.downMOVEE p{
+    width: 11rem;
+    margin: 0 0 2.5rem 0;
+}
+.menuDown{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.menuDown li{
+    margin: 0 0 1rem 0;
+}
+.menuItemDown{
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1rem;
+    font-weight: 550;
+    text-decoration: none;
+    margin: 0 0 0.9375rem 0;
+}
+.contactsDown{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 15% 0;
+}
+.email{
+    margin: 0 auto 0 auto;  
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.contactsDown p{
+     
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1rem;
+    font-weight: 550;
+    width: 11rem;
+    text-align: center;
+}
+.bigIcons{
+    display: flex;
+    justify-content: center;
+}
+.backCall{
+    display: flex;
+    flex-direction: column;
+    margin:  0 0 12% 0;
+}
+.backCallBut{
+    margin:  0 0 5% 0;
+    width: 12rem;
+    height: 3rem;
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.backCallBut{
+    transition: 500ms;
+    background-color: rgb(254, 209, 0);
+}
+.backCallBut::after{
+    content: 'Обратный звонок';
+}
+.backCallBut:hover{
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 0;
+}
+
+
+
+.title2, .title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color:#303030;
+}
+.title2{
+    padding: 5% 0 0 0;
+    margin: auto;
+}
+.title{
+    padding: 5% 0 3% 0;
+}
+.titleDes{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color:#303030;
+    padding: 0 0 5% 0;
+    margin: auto;
+}
+@media (max-width: 940px) {
+        .dd{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+        .MOVEE{
+            font-size: 1.5rem;
+        }
+        .menu{
+            display: none;
+        }
+        .numberPhone{
+            display: none;
+        }
+        .textHead{    
+            flex-direction: column;
+            font-weight: 1000;
+            align-items: center;
+        }
+        .titleHead{
+            font-size: 2.8rem;
+            text-align: center;
+        }
+        .descHead{
+            font-size: 1.3rem;
+        }  
+        .manImg{
+            width: 80%;
+            height: 60%;
+        }
+        .butt{
+            display: flex;	
+            justify-content: center;
+            margin: 10% 0 10% 0;
+        }
+        .but{
+            width: 15rem;
+            height: 3.2rem;      
+            background-color: #ff0000;
+            box-shadow: 0px 0px 0px rgb(254, 209, 0), 
+            0px 0px 0px #ffffff, 
+            0px 0px 0px #ffffff, 
+            0px 0px 0px #ffffff; 
+        }  
+        .phone{
+           display: none;
+        }
+        .downHeadBox{
+            display: none; 
+        }
+
+
+        .titleDes{
+            display: none;
+        }
+        .title2{
+            padding: 5% 0 3% 0;
+            margin: 5% 0 5% 0;
+        }
+ }
+
+ @media (max-width: 940px) {
+    .numbers{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .number{
+        width: 10%;
+        font-size: 2.7rem;
+        text-shadow: 0.2rem 0.2rem #f7e817;
+        margin: 0 0 0 5%;
+    }
+    .numberBox{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 5% 0 5% 0;
+    }
+    .jobsName{
+        display: inline-block;
+        font-weight: 520;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .jobsDescription{
+        display: none;
+    }
+ }
+
+ @media (max-width: 940px) {
+#pb2{
+    display: none;
+}
+#pb3{
+    display: none;
+}
+    .priceBox{
+        border: 0;
+    }
+
+    .allPrice{
+        display: flex;	
+            justify-content: center;
+            margin: 2% 0 15% 0;
+            font-family:"Montserrat", Arial, sans-serif;
+        color:#303030;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+ }
+
+
+
+ @media (max-width: 940px) {
+.butCar{
+    transition: 0ms;
+    border: 0;
+}
+.butCar:active:hover{
+    border: 0;
+    border-bottom:0.2rem solid #f7e817;
+}
+.carsInfoBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carsInfo{
+    display: none;
+}
+.carImg{
+    width: 100%;
+    height: 55%;
+}
+#mobCarBut{
+    display: block;
+    margin: 2% 0 15% 0;
+}
+.carMob{
+    display: flex;	
+    justify-content: center;
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#303030;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+}
+
+ @media (max-width: 1300px) { 
+    .carImg{
+        width: 50%;
+        height: 45%;
+    }
+ }
+
+ @media (max-width: 940px) {
+    #rev1{
+        display: none;
+    }
+    #rev3{
+        display: none;
+    }
+    .rev{
+        width: 90%;
+    }
+    .revsBox{
+        background-color: rgb(254, 209, 0);
+        min-height: 30rem;
+    }
+ }
+
+
+ @media (max-width: 940px) {
+.inputBox{
+    display: flex;
+    margin: 0 0 0% 0;
+    flex-direction: column;
+    align-items: center;
+}
+.inputItem{
+    border: 0;
+    padding: 0.9rem 8rem 1rem 0;
+    width: 45%;
+   border-bottom:0.2rem solid #3d3d3d;
+}
+.selectsBox{
+    display: none;
+}
+
+.payBox{
+    display: none;
+}
+.radioButItemBox{
+    display: none;
+}
+
+.funcBox h3{
+    display: none;
+}
+.additionallyBox{
+    display: none;
+}
+.checkButItemBox{
+    display: none;
+}
+.acceptBox{
+    margin: 3rem 0  0 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.acceptButBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 0 0rem 0;    
+}
+.acceptBut{
+    width: 18rem;
+    height: 4rem;
+    border: 0;
+    margin: 0 0 0rem 0;
+    box-shadow: 0px 0px 0px rgb(255, 255, 255), 
+    0px 0px 0px #000000, 
+    0px 0px 0px #000000, 
+    0px 0px 0px #000000; 
+}
+.acceptBut::after{
+    content: 'Перезвонить мне!';
+}
+.checkButAcceptItem+label{
+    font-size: 1rem;
+}
+.timer{
+    display: none;
+}
+ }
+
+ @media (max-width: 940px) {
+
+    .down{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding: 3% 0 0 0;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .downMOVEE{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .menuDown{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        text-align: center;
+        width: 100%;
+    }
+    .mMenu{
+        display: flex;
+        width: 100%;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+    }
+.icons{
+    justify-content: center;
+}
+
+    .email{
+        margin: 0 auto 0 auto;  
+        font-family:"Montserrat", Arial, sans-serif;
+        color:#303030;
+        font-size: 1rem;
+        font-weight: 550;
+    }
+    .contactsDown p{
+       display: none;
+    }
+    .bigIcons{
+        display: none;
+    }
+    .backCall{
+       
+    align-items: center;
+        margin:  5% 0 12% 0;
+    }
+    .backCallBut{
+        margin:  0 0 5% 0;
+        width: 12rem;
+        height: 3rem;
+        font-family:"Montserrat", Arial, sans-serif;
+        color:#303030;
+        font-size: 1rem;
+        font-weight: 550;
+    }
+    .backCallBut::after{
+ content: 'Заказать';
+    }
+ }
